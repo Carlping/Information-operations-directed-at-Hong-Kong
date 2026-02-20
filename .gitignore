@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env / tooling
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Env files
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data outputs
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
